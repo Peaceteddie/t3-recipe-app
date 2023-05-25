@@ -18,5 +18,8 @@ const config = {
     locales: ["en"],
     defaultLocale: "en",
   },
+  sassOptions: {
+    includePaths: ["./src/styles"],
+  },
 };
 export default config;
